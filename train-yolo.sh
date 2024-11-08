@@ -1,0 +1,1 @@
+yolo classify train --model=yolo11n-cls.pt --data=data --epochs=50 --imgsz=640
