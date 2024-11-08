@@ -160,3 +160,48 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+
+
+# profiling data
+# pytype static type analyzer
+.prof
+.pytype/
+# Machine learning specific folders and symlinks
+# Cython debug symbols
+runs
+cython_debug/
+/data
+/datasets
+*/data
+# Datasets and model checkpoints
+# PyCharm
+*.pth
+#  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
+*.pt
+#  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
+*.trt
+#  and can be added to the global gitignore or merged into this file.  For a more nuclear
+*.onnx
+#  option (not recommended) you can uncomment the following to ignore the entire idea folder.
+#.idea/
+# Image files
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+*.ico
+# Video files
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.flv
+*.wmv
+# Ignore Mac system files
+.DS_Store
+# Ignore npm packages (if using frontend components)
+node_modules/
+# Not ignore image for demo
+!demo/images/*/*.png
