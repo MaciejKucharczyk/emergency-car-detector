@@ -1,4 +1,4 @@
-# emergency-car-detector
+# Emergency car detector
 
 Development of three convolutional network models and comparing them in distinguishing emergency vehicles from civilian vehicles.
 
